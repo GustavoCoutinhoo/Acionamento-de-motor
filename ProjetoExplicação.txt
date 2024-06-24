@@ -1,0 +1,10 @@
+Esse projeto foi desenvolvido por Gustavo Coutinho.
+
+Neste projeto, desenvolvi um sistema de controle de motor utilizando 
+um microcontrolador ESP32, um display LCD 16x2 com conversor I2C, e um 
+MOSFET para amplificar a corrente necessária para o motor. O sistema inclui 
+uma entrada que recebe sinal de um push button e aciona o motor por um período de 10 segundos. 
+Para alimentar o motor, utilizei uma fonte externa de 5V e um MOSFET para 
+amplificação de corrente, uma vez que a saída do ESP32 é limitada 
+a apenas 20 mA, enquanto o motor requer 500 mA.
+O código foi escrito em linguagem c++ utilizando a biblioteca do LiquidCrystal_I2C
